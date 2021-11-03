@@ -1,5 +1,6 @@
-package com.sumaya.hw_week06_day03.api
+package com.sumaya.hw_week06_day03
 
+import com.sumaya.hw_week06_day03.FlickrResponse
 import retrofit2.Call
 import retrofit2.http.GET
 

@@ -1,15 +1,17 @@
-package com.sumaya.hw_week06_day03.api
+package com.sumaya.hw_week06_day03
 
 import android.util.Log
 import androidx.constraintlayout.helper.widget.MotionEffect.TAG
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.sumaya.hw_week06_day03.FlickrResponse
+import com.sumaya.hw_week06_day03.GalleryItem
+import com.sumaya.hw_week06_day03.PhotoResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.converter.scalars.ScalarsConverterFactory
 
 private const val TAG = "FlickrFetchr"
 class FlickrFetchr {

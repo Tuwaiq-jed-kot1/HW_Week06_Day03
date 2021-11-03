@@ -1,4 +1,4 @@
-package com.sumaya.hw_week06_day03.api
+package com.sumaya.hw_week06_day03
 
 import com.google.gson.annotations.SerializedName
 
